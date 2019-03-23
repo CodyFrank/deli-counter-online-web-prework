@@ -7,9 +7,9 @@ def line(array)
   else
     phrase = ["The line is currently: ", ]
     array.each_with_index do |name, index|
-      phrase << " #{index}. #{name}"
+      phrase << " #{index}. #{name}".chomp
     end
-    puts phrase.chomp
+    puts phrase
   end
 end
 line(other_deli)
