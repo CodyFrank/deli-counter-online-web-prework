@@ -9,8 +9,7 @@ def line(array)
     value = value.chomp
     phrase = [value,]
     array.each_with_index do |name, index|
-      line = " #{index +1}. #{name}"
-      line = line.chomp
+      line = " #{index +1.chomp}. #{name.chomp}"
       phrase << line
     end
     puts phrase
