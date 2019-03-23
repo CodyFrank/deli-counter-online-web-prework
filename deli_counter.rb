@@ -5,11 +5,10 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    phrase = ["The line is currently: ", ]
+    puts "The line is currently: ".chomp
     array.each_with_index do |name, index|
-      phrase << " #{index}. #{name}".chomp
+      puts " #{index}. #{name}".chomp
     end
-    puts phrase
   end
 end
 line(other_deli)
