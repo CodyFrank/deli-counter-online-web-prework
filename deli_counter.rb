@@ -24,6 +24,7 @@ def now_serving(array)
   if array == []
     puts "There is nobody waiting to be served!"
   else
-    array.shift
+    now_up = array.shift
+    puts "Currently serving #{now_up}."
   end
 end
