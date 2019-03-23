@@ -9,7 +9,7 @@ def line(array)
     array.each_with_index do |name, index|
       phrase << " #{index}. #{name}"
     end
-    print phrase
+    puts phrase
   end
 end
 line(other_deli)
