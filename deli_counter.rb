@@ -11,7 +11,6 @@ def line(array)
     puts " #{index +1.}. #{name}"
       phrase << line
     end
-    puts phrase
   end
 end
 line(other_deli)
