@@ -6,7 +6,6 @@ def line(array)
     puts "The line is currently empty."
   else
     value = "The line is currently: "
-    value = value.chomp
     phrase = [value,]
     array.each_with_index do |name, index|
       line = " #{index +1.chomp}. #{name.chomp}"
