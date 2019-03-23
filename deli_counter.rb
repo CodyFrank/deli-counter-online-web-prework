@@ -11,6 +11,7 @@ def line(array)
     line = " #{index +1}. #{name.chomp}"
       phrase << line
     end
+    phrase = phrase.join
     puts phrase
   end
 end
