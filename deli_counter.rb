@@ -5,7 +5,7 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    value = "The line is currently: "
+    value = "The line is currently:"
     phrase = [value,]
     array.each_with_index do |name, index|
     line = " #{index +1}. #{name.chomp}"
