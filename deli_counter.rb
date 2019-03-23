@@ -1,5 +1,4 @@
 # Write your code here.
-katz_deli = []
 def line(array)
   if array == []
     puts "The line is currently empty."
@@ -13,4 +12,8 @@ def line(array)
     phrase = phrase.join("")
     puts phrase
   end
+end
+
+def take_a_number(array, name)
+
 end
