@@ -8,7 +8,7 @@ def line(array)
     value = "The line is currently: "
     phrase = [value,]
     array.each_with_index do |name, index|
-      line = " #{index +1.}. #{name}"
+    puts " #{index +1.}. #{name}"
       phrase << line
     end
     puts phrase
