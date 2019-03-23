@@ -8,7 +8,7 @@ def line(array)
     value = "The line is currently: "
     phrase = [value,]
     array.each_with_index do |name, index|
-    puts " #{index +1}. #{name}"
+    line = " #{index +1}. #{name}".chomp
       phrase << line
     end
   end
