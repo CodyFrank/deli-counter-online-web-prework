@@ -8,7 +8,7 @@ def line(array)
     #phrase = ["The line is currently: ", ]
     puts "The line is currently:"
     array.each_with_index do |name, index|
-      puts " #{index}. #{name}"
+      puts " #{index}. #{name}".chomp
     end
   end
 end
