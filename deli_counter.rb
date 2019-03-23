@@ -9,7 +9,7 @@ def line(array)
     array.each_with_index do |name, index|
       phrase << " #{index}. #{name}"
     end
-    puts phrase
+    puts phrase.chomp
   end
 end
 line(other_deli)
