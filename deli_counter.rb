@@ -11,6 +11,7 @@ def line(array)
     line = " #{index +1}. #{name}".chomp
       phrase << line
     end
+    puts phrase
   end
 end
 line(other_deli)
